@@ -18,6 +18,11 @@ export default function Post({ postData }) {
             <br />
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
+        <small>
+            <Link href="/">
+                <a>Back to home</a>
+            </Link>
+        </small>
     </Layout>
     );
 }
