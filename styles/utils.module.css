@@ -48,5 +48,21 @@
   }
   
   .lightText {
-    color: #666;
+    color: rgb(189, 184, 184);
+    font-size: 0.8rem;
+  }
+
+  .para {
+    font-size: 0.9rem;
+  }
+  .content {
+    font-size: 1rem;
+    color: grey
+  }
+  .linkText {
+    font-size: 1rem;
+  }
+  .linkText:hover {
+    text-decoration: none;
+    color: darkslateblue;
   }

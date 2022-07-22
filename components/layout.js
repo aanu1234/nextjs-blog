@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 
 const name = 'Okanlawon Anuoluwapo'
-export const siteTitle = 'Nextjs Sample Website'
+export const siteTitle = 'About Me'
 
 export default function Layout({ children, home }) {
     return (
@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
             <link rel="icon" href="/favicon.ico" />
             <meta
             name="description"
-            content="Learn how to build a personal website using Next.js"
+            content="About the Developer"
             />
             <meta
             property="og:image"
